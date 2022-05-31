@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.Header-name {
+    height: 60px;
+    width: 100%;
+    line-height: 60px;
+    font-size: 40px;
+    padding-left: 5%;
+}
+
+.Header-nav-bar {
+    height: 60px;
+}
+
+.Navbar-box {
+    padding: 0 5%;
+    display:flex ;
+    align-items: center;
+}
+
+.Header-search {
+    line-height: 100px;
+    height: 40px;
+}
+
+.Header-menu {
+    flex: 20%;
+}
+
+.Header-menu {
+    flex: 80%;
+}
+
+.Header-menu > ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.Header-menu > ul > li {
+    line-height: 50px;
+    flex: 20%;
+    text-align: center;
+}
+
+.Header-menu > ul > li:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    background-color: aqua;
+    transition: 2s;
+}
+
+
+
+
+
+
+/* ID */
+.list-space {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.ID-card {
+    display: flex;
+    margin: 2%;
+    align-items: center;
+    border: 1px white;
+    box-shadow: 20px 20px 50px grey;
+}
+
+.ID-card:hover {
+    background-color: aqua;
+    color: white;
+    transition: 1s;
+}
+
+.ID-img {
+    border-radius:100px ;
+    margin-right: 10px;
+}
+
+
+.ID-info {
+    text-align: left;
+}
+
+.ID-name {
+    font-size: 40px;
+}
+
+.ID-adress {
+    margin: 5% 0;
+    font-size: 20px;
+}
+
+
+.ID-talent > ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    
+}
+
+.ID-talent > ul > li {
+    border-radius: 20px;
+    margin: 2%;
+    padding: 4%;
+    border: 1px solid;
+}
+
+.ID-talent > ul > li:hover {
+    background-color: black;
+    transition: 1s;
+}
